@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Layout</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div style="display: flex;flex-direction: column;width: 50%;">
+                <div class="red-large" style="width: 100%;">Red</div>
+                <div class="pink-large" style="width: 100%; height: 300px;">Pink</div>
+            </div>
+            <div class="column" style="width: 50%;">
+                <div class="boxtwo">
+                    <div class="blue-small2"></div>
+                    <div class="empty-space"></div>
+                </div>
+                <div class="blue-large">Blue</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="pink-large"></div>
+            <div class="medium-red" style="width: 50%;">Red</div>
+        </div>
+        <div style="display: flex; flex-direction: row-reverse; height: 200px; width: 100%; ">
+            <div class="right" style="width: 50%; border-left: 1px solid #000;"></div>
+            <div class="left" style="width: 50%; display: flex; flex-direction: row-reverse;">
+                <div style="width: 50%;height: 100%;">
+
+                </div>
+                <div class="squares-container">
+                    <div class="square top-left">Blue</div>
+                    <div class="square top-right">Red</div>
+                    <div class="square bottom-left">Pink</div>
+                    <div class="square bottom-right">yellow</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
